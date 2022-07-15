@@ -30,7 +30,7 @@
       }
     }
 
-    @media screen and (max-width: 757px) {
+    @media screen and (max-width: 757px) and (min-width: 321) {
       width: 50%;
 
       align-items: flex-start;
@@ -38,6 +38,14 @@
       & img {
         width: 143px;
         height: 143px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      width: 100%;
+
+      & img {
+        width: 100%;
       }
     }
   }

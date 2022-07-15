@@ -25,6 +25,12 @@
   &__paragraph {
     @include paragraph;
   }
+
+  @media screen and (max-width: 320px) {
+    width: 100%;
+
+    margin-top: 20px;
+  }
 }
 
 .mobile_section {

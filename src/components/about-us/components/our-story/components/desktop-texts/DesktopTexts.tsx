@@ -19,7 +19,8 @@ const DesktopTexts: FC = () => {
       <p className="texts__paragraph">
         Após a criação de sua empresa, encontrou um sócio que o ajudou a ampliar sua área de
         atuação. Hoje a Meta Segurança atua em ramos como <mark>portaria</mark>,&nbsp;
-        <mark>limpeza</mark>, <mark>festas</mark> e <mark>eventos</mark>.
+        <mark>limpeza</mark>, <mark>festas</mark> e <mark>eventos</mark> na cidade de{' '}
+        <mark>Porto Alegre</mark> e<mark>região</mark>.
       </p>
     </div>
   )
