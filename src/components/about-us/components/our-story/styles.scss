@@ -1,0 +1,51 @@
+@use 'src/styles/variables.scss' as variables;
+
+.our_story {
+  width: 1220px;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 60px;
+
+  @media screen and (max-width: 1260px) {
+    width: 100%;
+
+    flex-wrap: wrap;
+
+    padding: 0 20px;
+  }
+
+  &__image_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 1144px) and (min-width: 758px) {
+      & img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+
+    @media screen and (max-width: 757px) {
+      width: 50%;
+
+      align-items: flex-start;
+
+      & img {
+        width: 143px;
+        height: 143px;
+      }
+    }
+  }
+
+  &__name,
+  &__label {
+    font-size: variables.$title;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+}

@@ -1,0 +1,31 @@
+@use 'src/styles/variables.scss' as variables;
+
+.card {
+  width: 285px;
+  height: 219px;
+
+  padding: 20px;
+
+  border: 1px solid variables.$gray;
+  border-radius: 6px;
+
+  box-shadow: variables.$blueTransparency 0px 0px 3px 0.1px;
+
+  &__title {
+    font-size: variables.$text;
+    font-weight: 400;
+
+    text-align: center;
+  }
+
+  .descriptions {
+    display: flex;
+    flex-direction: column;
+
+    &__description {
+      margin-top: 15px;
+
+      color: variables.$lightBlack;
+    }
+  }
+}

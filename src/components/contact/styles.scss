@@ -1,0 +1,12 @@
+.contact_container {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+
+  margin-top: 20px;
+
+  @media screen and (max-width: 757px) {
+    flex-direction: column;
+  }
+}

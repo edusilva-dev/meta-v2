@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+
+  font-family: 'Lato', sans-serif;
+
+  box-sizing: border-box !important;
+}
+
+a {
+  text-decoration: none;
+}
